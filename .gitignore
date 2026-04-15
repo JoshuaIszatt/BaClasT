@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Model files (except the bundled production model)
+*.pkl
+!baclast/model.pkl
+
+# Notebook cache
+cache/
